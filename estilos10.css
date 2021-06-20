@@ -1,0 +1,29 @@
+
+.container{
+    color: white;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-titulos{
+    margin: 10%;
+    text-align: center;
+}
+.container-textopolitica{
+    width: 80%;
+    border: 3px solid white;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.container-textosomos{
+    width: 80%;
+    border: 3px solid white;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

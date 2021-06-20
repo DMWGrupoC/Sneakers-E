@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos9.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <title>Skateholders/crear cuenta</title>
+</head>
+
+<body style="background-color:#101a44">
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <a title="logo" href="index.html"><img src="logo.png" alt="Logo" style="width: 80px;" /></a>
+        <!-- Links -->
+        <ul class="navbar-nav container" style="font-family:nunito;">
+            <li class="nav-item">
+                <a class="nav-link" href="paginanueve.html">INICIAR SESION / CREAR CUENTA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="paginadiez.html">ACERCA DE </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="paginadoce.html">CONTACTOS/DIRECCIÓN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="segundapagina.html">TIENDA</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="tercerapagina.html">MARCAS</a>
+                    <a class="dropdown-item" href="3">NOVEDADES</a>
+                    <a class="dropdown-item" href="#">ESTILOS</a>
+                    <a class="dropdown-item" href="#">PROMOCIONES</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline" action="/action_page.php w 100">
+            <input class="form-control mr-sm-3 " type="text" placeholder="Buscar">
+            <button class="btn btn-light" type="submit">Buscar</button>
+        </form>
+    </nav>
+    <br>
+    <br>
+    <main>
+        <div class="correo">
+            <h2 class="sesion">Iniciar sesión</h2>
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="name" class="subtitulo">Correo:</label>
+                    <input type="correo" class="form-control" placeholder="@gmail.com" id="correo">
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="subtitulo">Contraseña:</label>
+                    <input type="password" class="form-control" placeholder="contraseña" id="password">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="cuenta">
+            <h2 class="cuenta-titulo">Crear cuenta</h2>
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="name" class="subtitulo">Nombres:</label>
+                    <input type="nombres" class="form-control" placeholder="nombres" id="correo">
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="subtitulo">Apellidos:</label>
+                    <input type="apellidos" class="form-control" placeholder="apellidos" id="apellidos">
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="subtitulo">Correo:</label>
+                    <input type="correo" class="form-control" placeholder="@gmail.com" id="correo">
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="subtitulo">Contraseña:</label>
+                    <input type="password" class="form-control" placeholder="contraseña" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="subtitulo">Confirmar contraseña:</label>
+                    <input type="password" class="form-control" placeholder="contraseña" id="password">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-success">Crear</button>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <br>
+    </footer>
+</body>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

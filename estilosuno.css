@@ -1,0 +1,46 @@
+img {
+width: 100;
+height: 100;
+}
+
+nav{ 
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+.box{
+    position: absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-85%, -85%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    #container-fluid{
+        width: 90%;
+        float: left;
+        margin: 3% auto;
+    }
+    #rounded{
+        margin: 5%;
+        width: 30%;
+        height: 30%;
+    }
+    .fotospequeñas{
+        float: right;
+        size: 250px;
+     
+    }
+    .texto{
+        float: left;
+        color: white;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+ 

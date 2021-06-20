@@ -1,0 +1,19 @@
+
+.container-fluid 
+{
+    padding-top: 2%;
+}
+.container{
+    color: white;
+  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.tarjetas{
+width: 150px;
+margin-top: 10px;
+margin-left: 50px;
+
+
+}

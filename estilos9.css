@@ -1,0 +1,31 @@
+.correo{
+    width: 600px;
+    padding-left: 30%;
+    padding-top: 20%;
+    border: 3px solid white;
+    padding: 20px;
+    margin: auto;
+}
+.sesion{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.cuenta{
+    width: 600px;
+    padding-left: 30%;
+    padding-top: 5%;
+    border: 3px solid white;
+    padding: 20px;
+    margin: auto;
+}
+.cuenta-titulo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.subtitulo{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}

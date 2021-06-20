@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="estilos11.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Skateholders/datosdeenvio</title>
+</head>
+
+<body style="background-color:#101a44">
+  <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <a title="logo" href="index.html"><img src="logo.png" alt="Logo" style="width: 80px;" /></a>
+    <!-- Links -->
+    <ul class="navbar-nav container" style="font-family:nunito;">
+      <li class="nav-item">
+        <a class="nav-link" href="paginanueve.html">INICIAR SESION / CREAR CUENTA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="paginadiez.html">ACERCA DE </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="paginadoce.html">CONTACTOS/DIRECCIÓN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="segundapagina.html">TIENDA</a>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="tercerapagina.html">MARCAS</a>
+          <a class="dropdown-item" href="novedades.html">NOVEDADES</a>
+          <a class="dropdown-item" href="estilo.html">ESTILOS</a>
+          <a class="dropdown-item" href="promociones.html">PROMOCIONES</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline" action="/action_page.php w 100">
+      <input class="form-control mr-sm-3 " type="text" placeholder="Buscar">
+      <button class="btn btn-light" type="submit">Buscar</button>
+    </form>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-8 col-lg-8 col-md-8 col-sm-8 col-xl-8">
+          <h2>Datos de Envio:</h2>
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="name">Nombre:</label>
+              <input type="name" class="form-control" placeholder="nombre" id="name">
+            </div>
+            <div class="form-group">
+              <label for="lastname">Apellidos:</label>
+              <input type="lastname" class="form-control" placeholder="apellidos" id="lastname">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Número de contacto:</label>
+              <input type="email" class="form-control" placeholder="número" id="email">
+            </div>
+            <div class="form-group">
+              <label for="email">Ciudad:</label>
+              <input type="email" class="form-control" placeholder="ciudad" id="ciudad">
+            </div>
+            <div class="form-group">
+              <label for="email">Dirección:</label>
+              <input type="email" class="form-control" placeholder="Dirección" id="direccion">
+            </div>
+            <div class="form-group">
+              <label for="email">Número de tarjeta:</label>
+              <input type="email" class="form-control" placeholder="númerotarjeta" id="número tarjeta">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Codigo de seguridad:</label>
+              <input type="password" class="form-control" placeholder="contraseña" id="pwd">
+            </div>
+
+        </div>
+        <div class="col-4 col-lg-4 col-md-4 col-sm-4 col-xl-4">
+          <h2>Estado del Envio</h2>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+          </div>
+          <br>
+          <br>
+          <h2>Formas de pago:</h2>
+          <div> <img src="img/paypal.png" alt="paypal" class="tarjetas"></div>
+          <div><img src="img/mastercard.png" alt="mastercard" class="tarjetas"></div>
+          <div> <img src="img/visa-logo@logotyp.us.svg" alt="visa" class="tarjetas"></div>
+
+
+        </div>
+      </div>
+
+    </div>
+    <br>
+    <div class="container">
+
+      <button type="button" class="btn btn-light">Enviar</button>
+
+    </div>
+  </main>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
